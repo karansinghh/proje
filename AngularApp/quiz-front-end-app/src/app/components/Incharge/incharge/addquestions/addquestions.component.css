@@ -1,0 +1,43 @@
+.main{
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media screen and (min-width:800px) {
+    .main{
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+.item-label{
+    margin: 1%;
+    width: 20%;
+    text-align: end;
+    color: cornsilk;
+}
+.item-input{
+    margin: 1%;
+    width: 76%;
+}
+button{
+    margin: 1%;
+    margin-left:38%;
+    width: 20%;
+}
+.text-input,.text-lable{
+    width: 100%;
+}
+img{
+    width: 60%;
+    margin-inline: 20%;
+    height: 30%;
+}
+ .card{
+    background: rgb(63,196,90);
+background: linear-gradient(90deg, rgba(63,196,90,1) 0%, rgba(141,122,57,1) 0%, rgba(110,106,213,1) 0%, rgba(0,212,255,1) 100%);
+    padding-bottom: 50px;
+    padding-top: 55px;
+ }
+
+ span{
+     color: cornsilk;
+ }

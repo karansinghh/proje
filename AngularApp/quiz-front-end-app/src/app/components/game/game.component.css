@@ -1,0 +1,11 @@
+
+.main-app {
+    margin: 0 auto;
+    max-width: 300px;
+    color: #34495e;
+  }
+
+  .tic{
+    background: url('/../../assets/images/gray2.jpg');
+    padding-bottom: 400px;
+  }

@@ -1,0 +1,36 @@
+
+.conatiner-fluid{
+    
+    width: 100%;
+    
+    background: url('/../../assets/images/font-5776469_1920.jpg');
+    padding-bottom: 250px;
+    padding-top: 180px;
+    
+}
+#name-input,.item-label,.item-input{
+    width: 80%;
+    margin-inline: 10%;
+    margin-bottom: 20px;
+}
+.instruction{
+    text-align: center;
+    margin-top: 25%;
+}
+
+button{
+    margin-top: 30px;
+    margin-left:35%;
+    width: 30%;
+}
+@media screen and (min-width:600px) {
+    .main{
+        width: 50%;
+        margin: 25%;
+        margin-top: 10%;
+    }
+    .instruction{
+        margin-top: 10%;
+    }
+}
+

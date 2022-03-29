@@ -1,0 +1,14 @@
+h6,p{
+    text-align: center;
+}
+
+.container{
+    padding: 5px;
+}
+
+.main{
+   
+    background: rgb(63,196,90);
+    background: linear-gradient(90deg, rgba(63,196,90,1) 0%, rgba(141,122,57,1) 0%, rgba(110,106,213,1) 0%, rgba(0,212,255,1) 100%);
+        
+}

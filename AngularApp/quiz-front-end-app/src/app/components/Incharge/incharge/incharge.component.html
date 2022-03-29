@@ -1,0 +1,14 @@
+<div class="container-fluid">
+<div class="containe">
+    <span>{{teacherDetails.user}}</span>
+    <span>Subject: {{teacherDetails.subject}}</span>
+    <button routerLink='home' class="btn btn-danger">logout</button>
+</div>
+
+<div class="main row">
+    <a class="btn main-btn btn-primary col btn-sm" [routerLink]="'/incharge/setpaperpattern'" [replaceUrl]="true">Set Paper Pattern</a>
+    <a class="btn main-btn btn-success col btn-sm" [routerLink]="'/incharge/addquestions'" [replaceUrl]="true">Add Questions</a>
+    <a class="btn main-btn btn-danger col btn-sm" [routerLink]="'/incharge/studentperformance'" [replaceUrl]="true">Student Performance</a>
+</div>
+</div>
+<router-outlet></router-outlet>
